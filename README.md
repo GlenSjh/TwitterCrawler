@@ -2,7 +2,7 @@
 crawler for twitter (without using api)
 
 ## Requirements
-jre
+jre<br>
 https proxy to crawl twitter
 
 ## Usage
