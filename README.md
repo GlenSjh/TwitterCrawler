@@ -15,6 +15,7 @@ The output of the program will be a folder named "Twitter", all user infomation 
 
 ## Notes
 We seperate the program into two jars to increase the speed, due to crawler limitation, it costs much time to crawl user's all followers(about 20min for 20000 followers). The speeds to crawl user's tweets is about 15min for 20000 tweets.
+Make sure you delete all contents in Twitter/ before you run new program (re-run the program will cause repeatition issue)
 
 
 
