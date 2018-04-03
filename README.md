@@ -3,22 +3,22 @@ crawler for twitter (without using api)
 
 ## Requirements
 jre8u161<br>
-https proxy to crawl twitter
+global proxy to crawl twitter
 
 ## Usage
 use the prodived jar file to crawl twitter<br>
 infoCrawler.jar is used to crawl user meta information, following and followers' screen name<br>
 tweetsCrawler.jar is used to crawl user's tweets(include retwees, some video tweets may be lost, maintaining)<br>
 collect information from file: <br>
-java -jar infoCrawler.jar<br>
-java -jar tweetsCrawler.jar<br>
+``java -jar infoCrawler.jar``<br>
+``java -jar tweetsCrawler.jar``<br>
 collect information from args<br>
-``java -jar infoCrawler.jar Glen_Sjh<br>``
-java -jar tweetsCrawler.jar Glen_Sjh<br>
+``java -jar infoCrawler.jar Glen_Sjh``<br>
+``java -jar tweetsCrawler.jar Glen_Sjh``<br>
 
 ## Configuration
-file personToCrawl.txt is used to specify users to crawl (screen name should be used)
-also, proxy should be added to crawl twitter, the program reads https proxy at 127.0.0.1:1080, map your proxy to local mode.
+file ``personToCrawl.txt`` is used to specify users to crawl (``SCREEN NAME`` should be used)
+also, global proxy should be added to crawl twitter
 
 ## Output
 The output of the program will be a folder named "Twitter", all user infomation are stored in sub folder named by screen name.
