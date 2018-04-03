@@ -13,7 +13,7 @@ collect information from file: <br>
 java -jar infoCrawler.jar<br>
 java -jar tweetsCrawler.jar<br>
 collect information from args<br>
-java -jar infoCrawler.jar Glen_Sjh<br>
+``java -jar infoCrawler.jar Glen_Sjh<br>``
 java -jar tweetsCrawler.jar Glen_Sjh<br>
 
 ## Configuration
