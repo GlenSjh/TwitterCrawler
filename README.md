@@ -10,11 +10,11 @@ global proxy to crawl twitter
     infoCrawler.jar is used to crawl user meta information, following and followers' screen name
     tweetsCrawler.jar is used to crawl user's tweets(include retwees, some video tweets may be lost, maintaining)
     collect information from file: 
-    ``java -jar infoCrawler.jar``
-    ``java -jar tweetsCrawler.jar``
+``java -jar infoCrawler.jar``
+``java -jar tweetsCrawler.jar``
     collect information from args
-    ``java -jar infoCrawler.jar Glen_Sjh``
-    ``java -jar tweetsCrawler.jar Glen_Sjh``
+``java -jar infoCrawler.jar Glen_Sjh``
+``java -jar tweetsCrawler.jar Glen_Sjh``
 
 ## Configuration
 file ``personToCrawl.txt`` is used to specify users to crawl (``SCREEN NAME`` should be used)
