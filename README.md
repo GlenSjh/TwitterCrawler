@@ -1,6 +1,10 @@
 # TwitterCrawler
 crawler for twitter (without using api)
 
+## Requirements
+jre
+https proxy to crawl twitter
+
 ## Usage
 use the prodived jar file to crawl twitter<br>
 infoCrawler.jar is used to crawl user meta information, following and followers' screen name<br>
